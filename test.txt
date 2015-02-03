@@ -1,3 +1,7 @@
-this is a test for git
 
-additional information for checkin
+
+test_method_factors <- function(seq, baseline)
+{
+    data <- factor(seq, level=baseline)
+    data
+}
